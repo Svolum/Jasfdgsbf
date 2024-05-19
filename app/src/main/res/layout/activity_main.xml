@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tV_descriptio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="21sp"
+        android:text="@string/text_header"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ET_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="21sp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="111"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+    <Spinner
+        android:id="@+id/S_fromBase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="6sp"
+        android:entries="@array/bases"
+        android:gravity="center"
+        android:minHeight="48dp" />
+
+    <Spinner
+        android:id="@+id/S_toBase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="6sp"
+        android:entries="@array/bases"
+        android:gravity="center"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/B_convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/button_text" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="21sp"
+        android:text="@string/text_rezultMessage"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/TV_Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="21sp"
+        android:textSize="20sp" />
+
+</LinearLayout>

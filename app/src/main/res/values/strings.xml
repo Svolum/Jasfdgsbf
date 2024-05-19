@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Калькулятор</string>
+    <string name="button_text">Конвертировать</string>
+    <string name="text_header">Калькулятор программиса, позволяет переводить число из одной системы исчисления в другую</string>
+    <string name="text_rezultMessage">Результат:</string>
+    <string-array name="bases">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>16</item>
+    </string-array>
+</resources>
